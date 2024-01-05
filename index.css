@@ -1,0 +1,12 @@
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+@media (min-width:200px) and (max-width:400px) {
+    .box{
+        background-color: beige;
+    }
+    
+}
